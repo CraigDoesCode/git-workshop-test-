@@ -17,6 +17,14 @@ main {
 .card {
     display:inline-block;
     background-color:hsl(244, 38%, 16%);
+    border-radius: 25px;
 }
-.card .text
-
+.card .info {
+    width: 50%
+}
+.main-text {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.stat-headings {
+    color:hsla(0, 0%, 100%, 0.6)
+}
