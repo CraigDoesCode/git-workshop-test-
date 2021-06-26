@@ -1,9 +1,22 @@
+
+/*font-family: 'Lexend Deca', sans-serif;*/
 body {
     
-    background-color: black;
+    background-color:hsl(233, 47%, 7%);
     color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
 }
-main {
+main {  
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
+
+.card {
+    display:inline-block;
+    background-color:hsl(244, 38%, 16%);
+}
+.card .text
+
