@@ -59,6 +59,7 @@ a {
 footer {
     display: flex;
     justify-content: space-around;
+    margin: 1rem;
 }
 /* ------------------------------------ mobile */
 .mobile {
@@ -74,6 +75,7 @@ footer {
         margin: 2rem;
         overflow: hidden;
         border-radius: 15px;
+        min-width: 450px;
     }
     .stats {
         flex-direction: column;
@@ -88,7 +90,13 @@ footer {
         display: flex;
         width: 100%;  
         flex-direction: column;
-        margin: auto;
+        margin: 1rem;
         text-align: center;
+    }
+    img {
+        opacity: 40%;
+    }
+    .overlay {
+        background-color: hsl(277, 64%, 61%);
     }
 }
