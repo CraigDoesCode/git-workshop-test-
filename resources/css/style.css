@@ -1,5 +1,4 @@
 
-/*font-family: 'Lexend Deca', sans-serif;*/
 body {
     
     background-color:hsl(233, 47%, 7%);
@@ -15,16 +14,43 @@ main {
 }
 
 .card {
-    display:inline-block;
+    display:flex;
+    overflow: hidden;
     background-color:hsl(244, 38%, 16%);
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .card .info {
-    width: 50%
+    width: 50%;
+    margin: 2rem;
+    padding: 2rem;
 }
 .main-text {
     color: hsla(0, 0%, 100%, 0.75);
 }
+.info span {
+    color: hsl(277, 64%, 61%);
+}
+.image {
+    width: 50%;
+    background-image: url("../images/image-header-desktop.jpg");
+}
 .stat-headings {
     color:hsla(0, 0%, 100%, 0.6)
+}
+.overlay{
+    background-color: hsla(277, 64%, 61%, 60%);
+    width: 100%;
+    height: 100%;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stat span {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+}
+a {
+    color: hsl(277, 64%, 61%);
 }
